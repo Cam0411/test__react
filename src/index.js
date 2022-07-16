@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './App.css'
+import './grid.css';
 import reportWebVitals from './reportWebVitals';
-
+import Header from './header.js'
+import Content from './content.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Content />
   </React.StrictMode>
 );
 
